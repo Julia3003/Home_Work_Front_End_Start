@@ -1,0 +1,49 @@
+.inter-text {
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 800;
+            font-style: normal;
+            font-variation-settings:
+                    "slnt" 0;
+            font-size: 24px
+        }
+
+.nav-options {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+            "slnt" 0;
+    font-size: 18px
+}
+
+.trial-free, .button, .offer__list {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+            "slnt" 0;
+    font-size: 18px
+}
+
+.profession, .offer__description, .learn__counter-descript, .learn__counter-detailed__descript{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+            "slnt" 0;
+    font-size: 18px
+}
+
+.offer__title, .offer_sale, .learn__counter-number, .learn__counter-number {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+            "slnt" 0;
+    font-size: 58px
+}

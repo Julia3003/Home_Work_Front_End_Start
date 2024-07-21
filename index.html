@@ -6,14 +6,18 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
     <header>
-        <a href="index.html">
+        <a class="inter-text" href="index.html">
             <img src="image/logo.svg" alt="logo"/>
             UpDate
         </a>
-        <nav>
+        <nav class="nav-options">
             <select name="multiple_options" multiple size="1">
                 <optgroup label="Courses">
                     <option value="option1">Animation</option>
@@ -38,15 +42,15 @@
             <a href="#">
                 Sign In
             </a>
-            <a href="#">
+            <a class="trial-free" href="#">
                 Trial free
             </a>
         </nav>
     </header>
     <main>
         <section class="offer">
-            <h5><b><u>6 months</u></b></h5>
-            <h5>profession:</h5>
+            <h5 class="trial-free"><b><u>6 months</u></b></h5>
+            <h5 class="profession">profession:</h5>
             <h1 class="offer__title">
                 UI/UX designer
             </h1>
@@ -91,11 +95,11 @@
         </section>
         <section class="learn">
             <div class="learn__text">
-                <h2 class="learn__title">
+                <h2 class="offer__title">
                     Profession
                     UI/UX designer
                 </h2>
-                <p class="profession_designer__description">
+                <p class="offer__description">
                     <i>At vero eos et accusamus et iusto odio dignissimos ducimus qui
                         <br>blanditiis  occaecati cupiditate non provident, similique sunt in culpa
                         <br>qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
@@ -172,7 +176,7 @@
             </div>
         </section>
         <section class="discover__our-prices">
-            <h2 class="discover-our-prices">
+            <h2 class="offer__title">
                 Discover Our
                 Prices
             </h2>
