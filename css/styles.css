@@ -8,7 +8,7 @@
             font-size: 24px
         }
 
-.nav-options {
+.nav-options, .sitemap__title {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -28,7 +28,7 @@
     font-size: 18px
 }
 
-.profession, .offer__description, .learn__counter-descript, .learn__counter-detailed__descript{
+.profession, .offer__description, .learn__counter-descript, .learn__counter-detailed__descript, .sitemap__list, .copyright{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -46,4 +46,44 @@
     font-variation-settings:
             "slnt" 0;
     font-size: 58px
+}
+
+.card-title, .price-title {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+            "slnt" 0;
+    font-size: 34px
+}
+
+.total_amount, .choose {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+            "slnt" 0;
+    font-size: 24px
+}
+
+.update {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+            "slnt" 0;
+    font-size: 18px
+}
+
+.support {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+            "slnt" 0;
+    font-size: 24px
 }
