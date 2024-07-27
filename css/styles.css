@@ -1,3 +1,22 @@
+body{
+    background: #EFEFF2;
+    margin: 0;
+    font: 400 18px/28px Inter, sans-serif;
+}
+
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
 .inter-text {
             font-family: "Inter", sans-serif;
             font-optical-sizing: auto;
