@@ -96,6 +96,11 @@ body{
     color: #FBFBFC;
     text-decoration: none;
 }
+.footer__box{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
 .sitemap{
     display: flex;
     gap: 200px;
@@ -110,7 +115,10 @@ body{
     padding: 36px 0 0;
     justify-content: space-between;
     background: #19191C;
+    width: 1920px;
+    height: 536px;
 }
+
 
 .inter-text {
             font-family: "Inter", sans-serif;
