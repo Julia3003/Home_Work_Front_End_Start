@@ -14,69 +14,64 @@
 <body>
     <header class="container header">
         <div class="header__box">
-            <a class="inter-text" href="index.html">
+            <a class="logo" href="index.html">
                 <img src="image/logo.svg" alt="logo"/>
                 UpDate
             </a>
-            <nav class="nav-options">
-                <select name="multiple_options" multiple size="1">
-                    <optgroup label="Courses">
-                        <option value="option1">Animation</option>
-                        <option value="option2">Design</option>
-                        <option value="option3">Illustration</option>
-                        <option value="option4">Programming</option>
-                        <option value="option5">Photo & Film</option>
-                        <option value="option6">Marketing</option>>
-                    </optgroup>
-                </select>
-                <ul>
+            <nav class="nav">
+                <ul class="nav__list">
                     <li>
-                        <a href="#">Teachers</a>
+                        <a class="link" href="#">Courses</a>
                     </li>
                     <li>
-                        <a href="#">Blog</a>
+                        <a class="link" href="#">Teachers</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#">Blog</a>
                     </li>
                 </ul>
             </nav>
         </div>
         <div class="btn-box">
-            <a href="#">
+            <a class="header__link" href="#">
                 En
             </a>
-            <a href="#">
+            <a class="header__link" href="#">
                 Sign In
             </a>
-            <a class="trial-free" href="#">
+            <a class="header__btn trial-free" href="#">
                 Trial free
             </a>
         </div>
     </header>
     <main>
         <section class="offer">
-            <h5 class="trial-free"><b><u>6 months</u></b></h5>
-            <h5 class="profession">profession:</h5>
-            <img src="image/Ellipse 20.png" alt="ellipse"/>
-            <h1 class="offer__title">
-                UI/UX designer
-            </h1>
-            <p class="offer__description">
-                <i>You will learn how to create a brand identity on the web and for printing.
-                    <br>Learn how to work in Illustrator, Photoshop, InDesign and Figma.
-                    <br>Add posters, logos, merch design and other strong projects to your
-                    <br>portfolio. Start a career in the studio or freelance.
-                </i>
-            </p>
-            <button class="button">
-                Started
-            </button>
-            <h3 class="offer_sale">
-                25%
-            </h3>
-            <p class="offer__time">
-                <time>
-                    17 Days 17:44:16
-                </time>
-            </p>
+            <div class="offer__holder">
+                <h5 class="trial-free"><b><u>6 months</u></b></h5>
+                <h5 class="profession">profession:</h5>
+                <img src="image/Ellipse 20.png" alt="ellipse"/>
+                <h1 class="offer__title">
+                    UI/UX designer
+                </h1>
+                <p class="offer__description">
+                    <i>You will learn how to create a brand identity on the web and for printing.
+                        <br>Learn how to work in Illustrator, Photoshop, InDesign and Figma.
+                        <br>Add posters, logos, merch design and other strong projects to your
+                        <br>portfolio. Start a career in the studio or freelance.
+                    </i>
+                </p>
+                <button class="button">
+                    Started
+                </button>
+                <h3 class="offer_sale">
+                    25%
+                </h3>
+                <p class="offer__time">
+                    <time>
+                        17 Days 17:44:16
+                    </time>
+                </p>
+            </div>
             <ul class="offer__list">
                 <li>
                     Illustrator
@@ -97,10 +92,10 @@
                     InVision
                 </li>
             </ul>
-            <img src="image/business-finance-woman.png" alt="business-woman with laptop">
-            <img src="image/Rectangle_107.jpg" alt="blue arch">
-            <img src="image/Rectangle_background.jpg" alt="background-grey">
-            <img src="image/gradient.png" alt="gradient">
+<!--            <img src="image/business-finance-woman.png" alt="business-woman with laptop">-->
+<!--            <img src="image/Rectangle_107.jpg" alt="blue arch">-->
+<!--            <img src="image/Rectangle_background.jpg" alt="background-grey">-->
+<!--            <img src="image/gradient.png" alt="gradient">-->
         </section>
         <section class="learn">
             <div class="learn__text">
@@ -311,58 +306,59 @@
             </article>
         </section>
     </main>
-    <footer>
-        <div>
-            <a class="update" href="index.html">
-                <img src="image/logo.svg" alt="logo"/>
-                UpDate
-            </a>
-            <br>
-            <a class="support" href="mailto:support@update.com">
-                support@update.com
-            </a>
-            <br>
-            <a class="support" href="tel:12136771024">
-                +1 (213) 677 10 24
-            </a>
-        </div>
-        <div class="sitemap">
-            <h6 class="sitemap__title">
-                Courses
-            </h6>
-            <ul class="sitemap__list">
-                <li>
-                    <a href="#">
-                        Animation
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Design
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Illustration
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Programming
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Photo & Film
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Marketing
-                    </a>
-                </li>
-            </ul>
-        
+    <footer class="container footer">
+        <div class="footer__main">
+            <div class="first__row">
+                <a class="logo__footer update" href="index.html">
+                    <img src="image/logo (1).svg" alt="logo"/>
+                    UpDate
+                </a>
+                <br>
+                <a class="support" href="mailto:support@update.com">
+                    support@update.com
+                </a>
+                <br>
+                <a class="support" href="tel:12136771024">
+                    +1 (213) 677 10 24
+                </a>
+            </div>
+            <div class="sitemap">
+                <h6 class="sitemap__title">
+                    Courses
+                </h6>
+                <ul class="sitemap__list">
+                    <li>
+                        <a href="#">
+                            Animation
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Design
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Illustration
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Programming
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Photo & Film
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Marketing
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="sitemap">
             <h6 class="sitemap__title">
@@ -424,6 +420,7 @@
                     </a>
                 </li>
             </ul>
+        </div>
         </div>
         <div class="copyright">
             <a href="#">
