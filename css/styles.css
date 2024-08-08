@@ -9,12 +9,28 @@ body{
 .container{
     width: 1440px;
     margin: 0 auto;
+    justify-content: space-between;
 }
 .header{
     display: flex;
     padding: 36px 0 0;
+    /*justify-content: space-between;*/
+}
+
+.footer{
+    display: flex;
+    padding: 36px 0 0;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer__box{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
     justify-content: space-between;
 }
+
 
 .header__box{
     display: flex;
@@ -90,7 +106,7 @@ body{
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-    display: flex;
+    margin-top: 59px;
     align-items: center;
     gap: 280px;
     color: #FBFBFC;
@@ -99,7 +115,9 @@ body{
 .footer__box{
     display: flex;
     align-items: center;
-    gap: 68px;
+    flex-direction: column;
+    /*gap: 10px;*/
+    /*justify-content: flex-start;*/
 }
 .sitemap{
     display: flex;
@@ -108,15 +126,19 @@ body{
 }
 .footer__main{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    /*flex-direction: row;*/
+    margin: 0;
 }
 .footer{
     display: flex;
     padding: 36px 0 0;
-    justify-content: space-between;
+    justify-content: space-around;;
     background: #19191C;
     width: 1920px;
     height: 536px;
+    flex-wrap: nowrap;
+    align-items: baseline;
 }
 
 
@@ -150,14 +172,14 @@ body{
     font-size: 18px
 }
 
-.profession, .offer__description, .learn__counter-descript, .learn__counter-detailed__descript, .sitemap__list, .copyright{
+.profession, .offer__description, .learn__counter-descript, .learn__counter-detailed__descript, .sitemap__list a, .copyright{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
             "slnt" 0;
-    font-size: 18px
+    font-size: 18px;
 }
 
 .offer__title, .offer_sale, .learn__counter-number, .learn__counter-number {
@@ -197,7 +219,11 @@ body{
     font-style: normal;
     font-variation-settings:
             "slnt" 0;
-    font-size: 18px
+    font-size: 18px;
+}
+
+.first{
+    margin-right: 280px;
 }
 
 .support {
@@ -207,5 +233,67 @@ body{
     font-style: normal;
     font-variation-settings:
             "slnt" 0;
-    font-size: 24px
+    font-size: 24px;
+    text-decoration: none;
+    color: #FBFBFC;
+
+}
+.sitemap__title{
+    color: #FBFBFC;
+    margin-top: 68px;
+    text-decoration: none;
+    /*margin-bottom: 28px;*/
+    align-items: flex-start;
+
+}
+.group__courses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.main__logo{
+    /*margin-left: 240px;*/
+    /*margin-right: 12px;*/
+    margin-top: 59px;
+}
+span{
+    display: flex;
+}
+
+.phone{
+    margin-top: 28px;
+    margin-bottom: 312px;
+    /*margin-left: 310px;*/
+}
+
+.e-mail{
+    margin-top: 48px;
+    /*margin-left: 350px;*/
+}
+.link{
+    text-decoration: none;
+    color: #EFEFF2;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+            "slnt" 0;
+    font-size: 18px;
+    margin-top: 28px;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #19191C;
+}
+
+.privacy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
