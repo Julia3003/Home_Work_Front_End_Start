@@ -286,9 +286,9 @@ span{
 }
 
 .copyright{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*align-items: center;*/
     background: #19191C;
 }
 
@@ -296,4 +296,18 @@ span{
     display: flex;
     flex-direction: row;
     align-items: center;
+    background: #19191C;
+    margin-left: 200px;
+}
+
+.link__bottom{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+            "slnt" 0;
+    font-size: 18px;
+    text-decoration: none;
+    color: #FBFBFC;
 }
