@@ -17,21 +17,6 @@ body{
     /*justify-content: space-between;*/
 }
 
-.footer{
-    display: flex;
-    padding: 36px 0 0;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-.footer__box{
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    justify-content: space-between;
-}
-
-
 .header__box{
     display: flex;
     align-items: center;
@@ -102,45 +87,12 @@ body{
     justify-content: space-between;
     flex-direction: column;
 }
-.logo__footer{
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    margin-top: 59px;
-    align-items: center;
-    gap: 280px;
-    color: #FBFBFC;
-    text-decoration: none;
-}
-.footer__box{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    /*gap: 10px;*/
-    /*justify-content: flex-start;*/
-}
+
 .sitemap{
     display: flex;
     gap: 200px;
     align-items: center;
 }
-.footer__main{
-    display: flex;
-    justify-content: space-between;
-    /*flex-direction: row;*/
-    margin: 0;
-}
-.footer{
-    display: flex;
-    padding: 36px 0 0;
-    justify-content: space-around;;
-    background: #19191C;
-    width: 1920px;
-    height: 536px;
-    flex-wrap: nowrap;
-    align-items: baseline;
-}
-
 
 .inter-text {
             font-family: "Inter", sans-serif;
@@ -222,10 +174,6 @@ body{
     font-size: 18px;
 }
 
-.first{
-    margin-right: 280px;
-}
-
 .support {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -238,43 +186,19 @@ body{
     color: #FBFBFC;
 
 }
-.sitemap__title{
-    color: #FBFBFC;
-    margin-top: 68px;
-    text-decoration: none;
-    /*margin-bottom: 28px;*/
-    align-items: flex-start;
-
-}
-.group__courses{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-}
-
-.main__logo{
-    /*margin-left: 240px;*/
-    /*margin-right: 12px;*/
-    margin-top: 59px;
-}
-span{
-    display: flex;
-}
 
 .phone{
+    display: block;
     margin-top: 28px;
-    margin-bottom: 312px;
-    /*margin-left: 310px;*/
 }
 
 .e-mail{
-    margin-top: 48px;
-    /*margin-left: 350px;*/
+    display: block;
+    margin-top: 43px;
 }
+
 .link{
     text-decoration: none;
-    color: #EFEFF2;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -285,19 +209,79 @@ span{
     margin-top: 28px;
 }
 
-.copyright{
-    /*display: flex;*/
-    /*flex-direction: row;*/
-    /*align-items: center;*/
+.footer{
     background: #19191C;
+    padding: 68px 240px 62px 240px;
 }
 
-.privacy{
+.footer__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 100px;
+}
+
+.footer__box:first-child {
+    margin-right: 146px;
+}
+
+.footer__box:not(:first-child) {
+    margin-right: 200px;
+}
+
+.footer__box:last-child {
+    margin-right: 0;
+}
+
+.footer__contacts__title {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.sitemap__title{
+    color: #FBFBFC;
+    text-decoration: none;
+}
+
+.group__courses.sitemap__title {
+    margin-bottom: 20px;
+}
+
+.sitemap__list {
+    padding: 0;
+    margin: 0;
+}
+
+.sitemap__list>li {
+    margin-top: 12px;
+    white-space: nowrap;
+}
+
+.footer__link{
+    text-decoration: none;
+    color: #EFEFF2;
+}
+
+.logo__footer{
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 59px;
+    align-items: center;
+    gap: 280px;
+    color: #FBFBFC;
+    text-decoration: none;
+}
+
+.copyright{
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: #19191C;
-    margin-left: 200px;
+    justify-content: center;
+    column-gap: 28px;
 }
 
 .link__bottom{
@@ -309,5 +293,6 @@ span{
             "slnt" 0;
     font-size: 18px;
     text-decoration: none;
-    color: #FBFBFC;
+    line-height: 28px;
+    color: #6D6D77;
 }
