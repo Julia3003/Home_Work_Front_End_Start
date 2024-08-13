@@ -76,6 +76,7 @@ body{
 }
 .offer__holder{
     width: 648px;
+    background-image: url(../image/Ellipse.png);
 }
 .offer__title{
     font-size: 58px;
@@ -121,8 +122,15 @@ body{
     font-style: normal;
     font-variation-settings:
             "slnt" 0;
-    font-size: 18px
+    font-size: 18px;
+    color:#FFFFFF;
 }
+
+.border{
+    background:#504DEE;
+    padding: 16px 37px;
+}
+
 
 .profession, .offer__description, .learn__counter-descript, .learn__counter-detailed__descript, .sitemap__list a, .copyright{
     font-family: "Inter", sans-serif;
