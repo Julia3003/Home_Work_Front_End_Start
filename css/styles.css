@@ -71,12 +71,39 @@ body{
     font-weight: 700;
 }
 .offer{
+    margin-top: 167px;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    z-index: 2;
+    /*background-position: right;*/
+    /*background-size: 467px 534px;*/
+    /*background-repeat: no-repeat;*/
 }
+.offer__list__position {
+    z-index: 3;
+    position: absolute;
+    right: 1100px;
+    top: 711px;
+}
+.woman {
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    z-index: 2;
+}
+
+.rectangle {
+    width: 467px;
+    height: 534px;
+    position: absolute;
+    right: 285px;
+    bottom: 0;
+}
+
 .offer__holder{
     width: 648px;
-    background-image: url(../image/Ellipse.png);
+    background: url(../image/Ellipse.png) 100% 100% no-repeat ;
 }
 .offer__title{
     font-size: 58px;
@@ -115,7 +142,7 @@ body{
     font-size: 18px
 }
 
-.trial-free, .button, .offer__list {
+.trial-free, .button {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -124,6 +151,57 @@ body{
             "slnt" 0;
     font-size: 18px;
     color:#FFFFFF;
+}
+
+.offer__list {
+    align-self: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /*position: relative;*/
+
+}
+
+.offer__item {
+    position: absolute;
+    border: 2px solid #19191C;
+    padding: 16px 36px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.offer__inVision{
+    position: absolute;
+    top: -765px;
+    left: 900px;
+}
+
+.offer__protoPie {
+    top: -860px;
+    right: -820px;
+
+}
+
+.offer__miro {
+    top: -765px;
+    left: 235px;
+}
+
+.offer__photoshop {
+    top: -590px;
+    left: 215px;
+
+}
+
+.offer__figma {
+    top: -450px;
+    left: -26px;
+}
+
+.offer__illustrator {
+    top: -275px;
+    left: 25px;
 }
 
 .border{
