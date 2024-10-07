@@ -13,6 +13,7 @@
 </head>
 <body>
     <header class="container header">
+        <div class="courses">
         <div class="header__box">
             <a class="logo" href="index.html">
                 <img src="image/logo.svg" alt="logo"/>
@@ -31,29 +32,29 @@
                     </li>
                 </ul>
             </nav>
+            <div class="btn-box">
+                <a class="header__link" href="#">
+                    En
+                </a>
+                <a class="header__link" href="#">
+                    Sign In
+                </a>
+                <a class="header__btn trial-free" href="#">
+                    Trial free
+                </a>
+            </div>
         </div>
-        <div class="btn-box">
-            <a class="header__link" href="#">
-                En
-            </a>
-            <a class="header__link" href="#">
-                Sign In
-            </a>
-            <a class="header__btn trial-free" href="#">
-                Trial free
-            </a>
         </div>
     </header>
     <main>
         <section class="offer">
-            <div>
                 <div class="offer__holder">
-                    <h5 class="trial-free trial"><b><u>6 months</u></b></h5>
-                    <h5 class="profession">profession:</h5>
-                    <!--                    <img src="image/Ellipse 20.png" alt="ellipse"/>-->
-                    <h1 class="offer__title">
-                        UI/UX designer
-                    </h1>
+                        <h5 class="trial-free trial"><b><u>6 months</u></b></h5>
+                        <h5 class="profession">profession:</h5>
+                        <!--                    <img src="image/Ellipse 20.png" alt="ellipse"/>-->
+                        <h1 class="offer__title">
+                            UI/UX designer
+                        </h1>
                     <p class="offer__description">
                         <i>You will learn how to create a brand identity on the web and for printing.
                             <br>Learn how to work in Illustrator, Photoshop, InDesign and Figma.
@@ -67,13 +68,12 @@
                     <h3 class="offer_sale">
                         25%
                     </h3>
-                    <p class="offer__time">
+                    <div class="offer__time">
                         <time>
                             17 Days 17:44:16
                         </time>
-                    </p>
+                    </div>
                 </div>
-            </div>
             <div class="profiles">
                 <div class="offer__list__position">
                     <ul class="offer__list">
@@ -104,24 +104,25 @@
                 </div>
             </div>
         </section>
-        <section class="learn">
+        <nav class="uxdesigner">
+<!--        <section class="learn">-->
             <div class="learn__text">
                 <h2 class="offer__title">
                     Profession
-                    UI/UX designer
+                    <br>UI/UX designer</br>
                 </h2>
-                <p class="offer__description">
+                <div class="offer__description">
                     <i>At vero eos et accusamus et iusto odio dignissimos ducimus qui
                         <br>blanditiis  occaecati cupiditate non provident, similique sunt in culpa
                         <br>qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
                     </i>
-                </p>
+                </div>
             </div>
             <div class="learn__counters">
-                <div class="learn__counter-item">
-                    <p class="learn__counter-number">
+                <div class="learn__counter-item five">
+                    <div class="learn__counter-number">
                         5 000 $
-                    </p>
+                    </div>
                     <p class="learn__counter-descript">
                         Salary
                     </p>
@@ -131,7 +132,8 @@
                         </i>
                     </p>
                 </div>
-                <div class="learn__counter-item">
+            </div>
+                <div class="learn__counter-item four">
                     <p class="learn__counter-number">
                         4 225
                     </p>
@@ -144,8 +146,7 @@
                         </i>
                     </p>
                 </div>
-            </div>
-        </section>
+        </nav>
         <section class="areas-learn">
             <div class="discover__cards">
                 <article class="discover__card-item">
@@ -153,22 +154,24 @@
                         <h3 class="card-title">
                             Portfolio
                         </h3>
-                        <img src="image/Portfolio/Portfolio.jpg" alt=portfolio"/>
-                        <img src="image/Portfolio/Rectangle_background.jpg" width=800 alt="background"/>
                         <p class="learn__counter-detailed__descript">
                             <i>
-                                You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma
+                                You will learn how to create a brand
+                                </br>identity on the web and for printing. Learn
+                                </br>how to work in Illustrator, Photoshop,
+                                </br>InDesign and Figma
+                                
                             </i>
                         </p>
                         </div>
                 </article>
                 <article class="discover__card-item">
-                    <div class="card-item">
+                    <div class="card-item-internship">
                         <h3 class="card-title">
                             Internship
                         </h3>
-                        <img src="image/Internship/Internship.jpg" alt="internship"/>
-                        <img src="image/Internship/Rectangle_background.jpg" width=800 alt="background"/>
+<!--                        <img src="image/Internship/Internship.jpg" alt="internship"/>-->
+<!--                        <img src="image/Internship/Rectangle_background.jpg" width=800 alt="background"/>-->
                         <p class="learn__counter-detailed__descript">
                             <i>
                                 You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma
@@ -177,12 +180,12 @@
                     </div>
                 </article>
                 <article class="discover__card-item">
-                    <div class="card-item">
+                    <div class="card-item-certificate">
                         <h3 class="card-title">
                             Certificate
                         </h3>
-                        <img src="image/Certificate/Certificate.jpg" alt="certificate"/>
-                        <img src="image/Certificate/Rectangle_background.jpg" width=800 alt="background"/>
+<!--                        <img src="image/Certificate/Certificate.jpg" alt="certificate"/>-->
+<!--                        <img src="image/Certificate/Rectangle_background.jpg" width=800 alt="background"/>-->
                         <p class="learn__counter-detailed__descript">
                             <i>
                                 You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma
@@ -193,16 +196,17 @@
             </div>
         </section>
         <section class="discover__our-prices">
-            <h2 class="offer__title">
+            <h2 class="offer__title__discover">
                 Discover Our
-                Prices
+                <br>Prices
             </h2>
+            <div class="description-courses">
             <article class="prices-item">
-                <div class="price-description">
+                <div class="price-description-base">
                     <h3 class="price-title">
                         Base
                     </h3>
-                    <img src="image/Base.jpg" alt="base"/>
+<!--                    <img src="image/Base.jpg" alt="base"/>-->
                     <ul>
                         <li>
                             Et dolorum fuga et harum quidem rerum
@@ -218,17 +222,19 @@
                         </li>
                     </ul>
                 </div>
-                <div class="prices__courses">
-                    <p class="total_amount">
+                <div class="prices__courses cources_base">
+                    <p class="total_amount-twelve">
                         12 000$
                     </p>
-                    <p class="learn__counter-number">
+                    <div class="numb-choose">
+                    <span class="learn__counter-number three">
                         3 000$
-                    </p>
+                    </span>
                     <form action="https://fom.in.ua/echo" method="post">
                         <input type="hidden" name="tariff_plan" value="Base">
                         <input class="choose" type="submit" value="Choose">
                     </form>
+                    </div>
                 </div>
             </article>
             <article class="prices-item">
@@ -236,8 +242,8 @@
                     <h3 class="price-title">
                         Optimal
                     </h3>
-                    <img src="image/Optimal.jpg" alt="optimal"/>
-                    <img src="image/item.jpg" alt="white rectangle"/>
+<!--                    <img src="image/Optimal.jpg" alt="optimal"/>-->
+<!--                    <img src="image/item.jpg" alt="white rectangle"/>-->
                     <ul>
                         <li>
                             Rerum hic tenetur a sapiente
@@ -274,7 +280,7 @@
                     <h3 class="price-title">
                         Premium
                     </h3>
-                    <img src="image/Premium.jpg" alt="premium"/>
+<!--&lt;!&ndash;                    <img src="image/Premium.jpg" alt="premium"/>&ndash;&gt;-->
                     <ul>
                         <li>
                             Ullamco laboris nisi ut
@@ -301,146 +307,147 @@
                         18 000$
                     </p>
                 </div>
-                <form action="https://fom.in.ua/echo" method="post">
-                    <input type="hidden" name="tariff_plan" value="Premium">
-                    <input class="choose" type="submit" value="Choose">
-                </form>
-                <!--   2й варіант з використанням Get-метода-->
-    <!--           <form action="https://fom.in.ua/echo" method="get">&ndash;&gt;-->
-    <!--                <input type="hidden" name="tariff_plan" value="Premium">-->
-    <!--                <input type="submit" value="Choose">-->
-    <!--            </form>-->
+<!--                <form action="https://fom.in.ua/echo" method="post">-->
+<!--                    <input type="hidden" name="tariff_plan" value="Premium">-->
+<!--                    <input class="choose" type="submit" value="Choose">-->
+<!--                </form>-->
+<!--                &lt;!&ndash;   2й варіант з використанням Get-метода&ndash;&gt;-->
+<!--    &lt;!&ndash;           <form action="https://fom.in.ua/echo" method="get">&ndash;&gt;&ndash;&gt;-->
+<!--    &lt;!&ndash;                <input type="hidden" name="tariff_plan" value="Premium">&ndash;&gt;-->
+<!--    &lt;!&ndash;                <input type="submit" value="Choose">&ndash;&gt;-->
+<!--    &lt;!&ndash;            </form>&ndash;&gt;-->
             </article>
+            </div>
         </section>
     </main>
-    <footer class="footer">
-        <div class="footer__container">
-            <div class="footer__box"><span class="footer__contacts__title">
-                <img src="image/logo (1).svg" alt="logo"/>
-                <a class="update sitemap__title" href="index.html">
-                    UpDate
-                </a>
-            </span>
-                <a class="support e-mail" href="mailto:support@update.com">
-                    support@update.com
-                </a>
-                <a class="support phone" href="tel:12136771024">
-                    +1 (213) 677 10 24
-                </a>
-            </div>
-            <div class="footer__box">
-                <div class="group__courses">
-                    <p class="sitemap__title">
-                        Courses
-                    </p>
-                    <ul class="sitemap__list">
-                        <li>
-                            <a class="footer__link" href="#">
-                                Animation
-                            </a>
-                        </li>
-                        <li>
-                            <a class="footer__link" href="#">
-                                Design
-                            </a>
-                        </li>
-                        <li>
-                            <a class="footer__link" href="#">
-                                Illustration
-                            </a>
-                        </li>
-                        <li>
-                            <a class="footer__link" href="#">
-                                Programming
-                            </a>
-                        </li>
-                        <li>
-                            <a class="footer__link" href="#">
-                                Photo & Film
-                            </a>
-                        </li>
-                        <li>
-                            <a class="footer__link" href="#">
-                                Marketing
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer__box">
-                <div class="group__courses">
-                    <p class="sitemap__title">
-                        Teachers
-                    </p>
-                    <ul class="sitemap__list">
-                        <li>
-                            <a class="footer__link" href="#">
-                                All Teachers
-                            </a>
-                        </li>
-                        <li>
-                            <a class="footer__link" href="#">
-                                Become a Teacher
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer__box">
-                <div class="group__courses">
-                    <p class="sitemap__title">
-                        Information
-                    </p>
-                    <ul class="sitemap__list">
-                        <li>
-                            <a class="footer__link" href="#">
-                                Blog
-                            </a>
-                        </li>
-                        <li>
-                            <a class="footer__link" href="#">
-                                About us
-                            </a>
-                        </li>
-                        <li>
-                            <a class="footer__link" href="#">
-                                FAQ
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer__box">
-                <div class="group__courses">
-                    <p class="sitemap__title">
-                        En
-                    </p>
-                    <ul class="sitemap__list">
-                        <li>
-                            <a class="footer__link" href="#">
-                                English
-                            </a>
-                        </li>
-                        <li>
-                            <a class="footer__link" href="#">
-                                French
-                            </a>
-                        </li>
-                        <li>
-                            <a class="footer__link" href="#">
-                                Ukrainian
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="copyright">
-            <a class="link__bottom" href="#">
-                Policy privacy
-            </a>
-            <span class="link__bottom">Copyright 2022. All rights reserved</span>
-        </div>
+<!--    <footer class="footer">-->
+<!--        <div class="footer__container">-->
+<!--            <div class="footer__box"><span class="footer__contacts__title">-->
+<!--                <img src="image/logo (1).svg" alt="logo"/>-->
+<!--                <a class="update sitemap__title" href="index.html">-->
+<!--                    UpDate-->
+<!--                </a>-->
+<!--            </span>-->
+<!--                <a class="support e-mail" href="mailto:support@update.com">-->
+<!--                    support@update.com-->
+<!--                </a>-->
+<!--                <a class="support phone" href="tel:12136771024">-->
+<!--                    +1 (213) 677 10 24-->
+<!--                </a>-->
+<!--            </div>-->
+<!--            <div class="footer__box">-->
+<!--                <div class="group__courses">-->
+<!--                    <p class="sitemap__title">-->
+<!--                        Courses-->
+<!--                    </p>-->
+<!--                    <ul class="sitemap__list">-->
+<!--                        <li>-->
+<!--                            <a class="footer__link" href="#">-->
+<!--                                Animation-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a class="footer__link" href="#">-->
+<!--                                Design-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a class="footer__link" href="#">-->
+<!--                                Illustration-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a class="footer__link" href="#">-->
+<!--                                Programming-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a class="footer__link" href="#">-->
+<!--                                Photo & Film-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a class="footer__link" href="#">-->
+<!--                                Marketing-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="footer__box">-->
+<!--                <div class="group__courses">-->
+<!--                    <p class="sitemap__title">-->
+<!--                        Teachers-->
+<!--                    </p>-->
+<!--                    <ul class="sitemap__list">-->
+<!--                        <li>-->
+<!--                            <a class="footer__link" href="#">-->
+<!--                                All Teachers-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a class="footer__link" href="#">-->
+<!--                                Become a Teacher-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="footer__box">-->
+<!--                <div class="group__courses">-->
+<!--                    <p class="sitemap__title">-->
+<!--                        Information-->
+<!--                    </p>-->
+<!--                    <ul class="sitemap__list">-->
+<!--                        <li>-->
+<!--                            <a class="footer__link" href="#">-->
+<!--                                Blog-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a class="footer__link" href="#">-->
+<!--                                About us-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a class="footer__link" href="#">-->
+<!--                                FAQ-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="footer__box">-->
+<!--                <div class="group__courses">-->
+<!--                    <p class="sitemap__title">-->
+<!--                        En-->
+<!--                    </p>-->
+<!--                    <ul class="sitemap__list">-->
+<!--                        <li>-->
+<!--                            <a class="footer__link" href="#">-->
+<!--                                English-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a class="footer__link" href="#">-->
+<!--                                French-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <a class="footer__link" href="#">-->
+<!--                                Ukrainian-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="copyright">-->
+<!--            <a class="link__bottom" href="#">-->
+<!--                Policy privacy-->
+<!--            </a>-->
+<!--            <span class="link__bottom">Copyright 2022. All rights reserved</span>-->
+<!--        </div>-->
     </footer>
 </body>
 </html>
