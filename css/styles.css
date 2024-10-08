@@ -120,12 +120,8 @@ main {
     /*z-index: 2;*/
     padding-top: 167px;
     align-items: stretch;
-        /*background-position: right;*/
-    /*background-size: 467px 534px;*/
-    /*background-repeat: no-repeat;*/
 }
 .offer__list__position {
-    /*z-index: 3;*/
     position: absolute;
 }
 .woman {
@@ -403,14 +399,6 @@ h2 {
     background:#504DEE;
     padding: 16px 37px;
 }
-
-.learn {}
-
-.learn__text {}
-
-.five {}
-
-.four {}
 
 .discover__cards {
     position: relative;
