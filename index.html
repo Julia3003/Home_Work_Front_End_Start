@@ -15,23 +15,25 @@
     <header class="container header">
         <div class="courses">
         <div class="header__box">
-            <a class="logo" href="index.html">
-                <img src="image/logo.svg" alt="logo"/>
-                UpDate
-            </a>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li>
-                        <a class="link" href="#">Courses</a>
-                    </li>
-                    <li>
-                        <a class="link" href="#">Teachers</a>
-                    </li>
-                    <li>
-                        <a class="link" href="#">Blog</a>
-                    </li>
-                </ul>
-            </nav>
+            <div class="left_element_header">
+                <a class="logo" href="index.html">
+                    <img src="image/logo.svg" alt="logo"/>
+                    UpDate
+                </a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li>
+                            <a class="link" href="#">Courses</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#">Teachers</a>
+                        </li>
+                        <li>
+                            <a class="link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
             <div class="btn-box">
                 <a class="header__link" href="#">
                     En
@@ -47,11 +49,10 @@
         </div>
     </header>
     <main>
-        <section class="offer">
+        <section class="offer container">
                 <div class="offer__holder">
                         <h5 class="trial-free trial"><b><u>6 months</u></b></h5>
                         <h5 class="profession">profession:</h5>
-                        <!--                    <img src="image/Ellipse 20.png" alt="ellipse"/>-->
                         <h1 class="offer__title">
                             UI/UX designer
                         </h1>
@@ -104,14 +105,13 @@
                 </div>
             </div>
         </section>
-        <nav class="uxdesigner">
-<!--        <section class="learn">-->
+        <section class="uxdesigner">
             <div class="learn__text">
                 <h2 class="offer__title">
                     Profession
                     <br>UI/UX designer</br>
                 </h2>
-                <div class="offer__description">
+                <div class="offer__description_one">
                     <i>At vero eos et accusamus et iusto odio dignissimos ducimus qui
                         <br>blanditiis  occaecati cupiditate non provident, similique sunt in culpa
                         <br>qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
@@ -121,7 +121,7 @@
             <div class="learn__counters">
                 <div class="five">
                     <div class="month_amount">5 000 $</div>
-                    <p class="learn__counter-descript">Salary</p>
+                    <span class="learn__counter-descript">Salary</span>
                     <p class="learn__counter-detailed__descript">
                         <i>Nam libero tempore, cum soluta nobis est</i>
                     </p>
@@ -129,60 +129,47 @@
             </div>
             <div class="four">
                 <p class="month_amount">4 225</p>
-                <p class="learn__counter-descript">Vacancies</p>
+                <span class="learn__counter-descript">Vacancies</span>
                 <p class="learn__counter-detailed__descript">
                     <i>Vero eos et accusamus</i>
                 </p>
             </div>
-        </nav>
-        <section class="areas-learn">
-            <div class="discover__cards">
-                <article class="discover__card-item">
-                    <div class="card-item background_green">
-                        <h3 class="card-title">
-                            Portfolio
-                        </h3>
-                        <p class="learn__counter-detailed__descript">
-                            <i>
-                                You will learn how to create a brand
-                                </br>identity on the web and for printing. Learn
-                                </br>how to work in Illustrator, Photoshop,
-                                </br>InDesign and Figma
-                                
-                            </i>
-                        </p>
-                    </div>
-                </article>
-                <article class="discover__card-item">
-                    <div class="card-item-internship">
-                        <h3 class="card-title">
-                            Internship
-                        </h3>
-<!--                        <img src="image/Internship/Internship.jpg" alt="internship"/>-->
-<!--                        <img src="image/Internship/Rectangle_background.jpg" width=800 alt="background"/>-->
-                        <p class="learn__counter-detailed__descript">
-                            <i>
-                                You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma
-                            </i>
-                        </p>
-                    </div>
-                </article>
-                <article class="discover__card-item">
-                    <div class="card-item-certificate">
-                        <h3 class="card-title">
-                            Certificate
-                        </h3>
-<!--                        <img src="image/Certificate/Certificate.jpg" alt="certificate"/>-->
-<!--                        <img src="image/Certificate/Rectangle_background.jpg" width=800 alt="background"/>-->
-                        <p class="learn__counter-detailed__descript">
-                            <i>
-                                You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma
-                            </i>
-                        </p>
-                    </div>
-                </article>
-            </div>
         </section>
+		<section class="discover__cards">
+			<article class="discover__card-item background_green">
+				<h3 class="card-title">
+					Portfolio
+				</h3>
+				<p class="learn__counter-detailed__descript">
+					<i>
+						You will learn how to create a brand
+						</br>identity on the web and for printing. Learn
+						</br>how to work in Illustrator, Photoshop,
+						</br>InDesign and Figma
+					</i>
+				</p>
+			</article>
+			<article class="discover__card-item background_yellow">
+				<h3 class="card-title">
+					Internship
+				</h3>
+				<p class="learn__counter-detailed__descript">
+					<i>
+						You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma
+					</i>
+				</p>
+			</article>
+			<article class="discover__card-item background_pink">
+				<h3 class="card-title">
+					Certificate
+				</h3>
+				<p class="learn__counter-detailed__descript">
+					<i>
+						You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma
+					</i>
+				</p>
+			</article>
+		</section>
         <section class="discover__our-prices">
             <h2 class="offer__title__discover">
                 Discover Our
