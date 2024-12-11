@@ -13,8 +13,10 @@ body{
 }
 
 main {
-    position: relative;
-    padding: 0 240px;
+    /*position: relative;*/
+    /*padding: 0 240px;*/
+    width: 1440px;
+    margin: auto;
 }
 
 .uxdesigner {
@@ -35,14 +37,14 @@ main {
 }
 
 .container{
-    width: 100%;
+    width: 1440px;
     margin: 0 auto;
 }
 .header{
     display: flex;
     padding: 36px 0 0;
     justify-content: space-between;
-    margin: auto 240px;
+    margin: auto;
 }
 
 .courses {
@@ -120,6 +122,7 @@ main {
     justify-content: space-between;
     padding-top: 167px;
     align-items: stretch;
+    position: relative;
 }
 .offer__list__position {
     position: absolute;
@@ -157,7 +160,6 @@ main {
     background: url(../image/Ellipse.png) 100% 100% no-repeat ;
     position: absolute;
     top: -115px;
-    left: 240px;
 }
 
 .offer__title{
@@ -504,11 +506,9 @@ h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
     margin-bottom: 100px;
     column-gap: 100px;
-
 }
 
 .footer__box:first-child {
