@@ -131,7 +131,7 @@ main {
 
 .woman {
     position: absolute;
-    right: -44px;
+    right: 0;
 }
 
 .woman__rectangle {
