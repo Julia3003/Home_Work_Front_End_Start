@@ -118,8 +118,6 @@ main {
     margin-bottom: 167px;
     display: flex;
     justify-content: space-between;
-    /*position: relative;*/
-    /*z-index: 2;*/
     padding-top: 167px;
     align-items: stretch;
 }
@@ -230,7 +228,6 @@ h2 {
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    /*position: relative;*/
 }
 
 .discover__card-item p {
@@ -436,7 +433,6 @@ h2 {
 }
 
 .month_amount {
-    /*line-height: 70px;*/
     font-size: 58px;
     font-weight: 700;
     margin: 3px 0 0;
