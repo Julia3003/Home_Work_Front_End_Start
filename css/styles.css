@@ -20,7 +20,6 @@ main {
 }
 
 .uxdesigner {
-    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -37,8 +36,9 @@ main {
 }
 
 .container{
-    width: 1440px;
+    /*width: 1440px;*/
     margin: 0 auto;
+    padding: 0 15px;
 }
 .header{
     display: flex;
@@ -594,5 +594,125 @@ h2 {
 .offer__title__discover{
     font-weight: 700;
     font-size: 58px;
+
+}
+
+.learn-container {
+    flex-wrap: wrap;
+}
+
+
+@media (max-width:480px){
+    .container {
+        width: 480px;
+        flex-wrap: wrap;
+        padding: 0 15px;
+    }
+
+    .woman__rectangle{
+        display: none;
+    }
+
+    .footer .footer__box .description-courses{
+        display: flex;
+        /*width: 480px;*/
+        flex-wrap: wrap;
+    }
+
+    .learn__counters{
+        display: flex;
+        flex: 1 1 100%;
+    }
+
+    .group__courses{
+        flex-wrap: wrap;
+    }
+
+    .offer__list {
+        display: flex;
+        flex-direction: column;
+    }
+    /*.discover__cards .mobile__version {*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*}*/
+
+    .offer__item{
+        position: revert;
+        margin-left: 235px;
+        margin-top: 262px;
+    }
+
+    .offer__figma{
+        margin-top: 58px;
+    }
+
+    .offer__photoshop{
+        margin-top: 68px;
+    }
+
+    .offer__miro{
+        margin-top: 88px;
+    }
+
+    .offer__protoPie{
+        margin-top: 108px;
+    }
+
+    .offer__inVision {
+        margin-top: 130px;
+    }
+
+    .list__mobile{
+        display: flex;
+        gap: 20px;
+    }
+
+    .description-courses, .discover__cards {
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .offer__holder{
+        margin-left: -473px;
+        width: 75vw;
+    }
+
+    .learn-container {
+        width: 100vw;
+    }
+
+    .footer{
+        display: block;
+        padding: 0;
+    }
+
+    .footer__container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        column-gap: 100px;
+        width: 80vw;
+    }
+
+    .price-description{
+        width: 90vw;
+    }
+
+    .left_element_header {
+        gap: 22px;
+    }
+
+    .footer__box:first-child {
+        margin-right: 0;
+    }
+
+    main {
+        width: 480px;
+    }
+
+
 
 }
